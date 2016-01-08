@@ -82,7 +82,7 @@
 
 			target[fragments[fragments.length - 1]] = modules[id];
 		}
-		
+
 		// Expose private modules for unit tests
 		if (exports.AMDLC_TESTS) {
 			privateModules = exports.privateModules || {};
@@ -34254,7 +34254,7 @@ define("tinymce/util/JSON", [], function() {
  */
 
 /**
- * This class enables you to use JSON-RPC to call backend methods.
+ * This class enables you to use JSON-RPC to call back end methods.
  *
  * @class tinymce.util.JSONRequest
  * @example

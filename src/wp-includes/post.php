@@ -902,7 +902,7 @@ function get_post_types( $args = array(), $output = 'names', $operator = 'and' )
  *     @type string      $description          A short descriptive summary of what the post type is.
  *                                             Default empty.
  *     @type bool        $public               Whether a post type is intended for use publicly either via
- *                                             the admin interface or by front-end users. While the default
+ *                                             the admin interface or by front end users. While the default
  *                                             settings of $exclude_from_search, $publicly_queryable, $show_ui,
  *                                             and $show_in_nav_menus are inherited from public, each does not
  *                                             rely on this relationship and controls a very specific intention.
@@ -4896,7 +4896,7 @@ function wp_get_attachment_url( $post_id = 0 ) {
 		$url = get_the_guid( $post->ID );
 	}
 
-	// On SSL front-end, URLs should be HTTPS.
+	// On SSL front end, URLs should be HTTPS.
 	if ( is_ssl() && ! is_admin() && 'wp-login.php' !== $GLOBALS['pagenow'] ) {
 		$url = set_url_scheme( $url );
 	}

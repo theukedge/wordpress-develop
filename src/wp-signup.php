@@ -48,7 +48,7 @@ $wp_query->is_404 = false;
 do_action( 'before_signup_header' );
 
 /**
- * Prints styles for front-end Multisite signup pages
+ * Prints styles for front end Multisite signup pages
  *
  * @since MU
  */
@@ -758,7 +758,7 @@ function confirm_blog_signup( $domain, $path, $blog_title, $user_name = '', $use
  */
 function signup_get_available_languages() {
 	/**
-	 * Filter the list of available languages for front-end site signups.
+	 * Filter the list of available languages for front end site signups.
 	 *
 	 * Passing an empty array to this hook will disable output of the setting on the
 	 * signup form, and the default language will be used when creating the site.
