@@ -15,7 +15,8 @@ wp-tests-config.php
 /npm-debug.log
 /build
 /tests/phpunit/build
-/wp-cli.local.yml 
+/wp-cli.local.yml
+/.svn-backup
 
 # Files and folders that get created in wp-content
 /src/wp-content/blogs.dir
