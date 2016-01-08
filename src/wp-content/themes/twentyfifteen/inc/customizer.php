@@ -239,7 +239,7 @@ function twentyfifteen_sanitize_color_scheme( $value ) {
 endif; // twentyfifteen_sanitize_color_scheme
 
 /**
- * Enqueues front-end CSS for color scheme.
+ * Enqueues front end CSS for color scheme.
  *
  * @since Twenty Fifteen 1.0
  *

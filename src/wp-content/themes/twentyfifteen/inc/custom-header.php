@@ -186,7 +186,7 @@ function twentyfifteen_header_style() {
 endif; // twentyfifteen_header_style
 
 /**
- * Enqueues front-end CSS for the header background color.
+ * Enqueues front end CSS for the header background color.
  *
  * @since Twenty Fifteen 1.0
  *
@@ -232,7 +232,7 @@ function twentyfifteen_header_background_color_css() {
 add_action( 'wp_enqueue_scripts', 'twentyfifteen_header_background_color_css', 11 );
 
 /**
- * Enqueues front-end CSS for the sidebar text color.
+ * Enqueues front end CSS for the sidebar text color.
  *
  * @since Twenty Fifteen 1.0
  */
